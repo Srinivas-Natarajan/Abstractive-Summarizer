@@ -8,4 +8,4 @@ An abstractive summarization tool that can condense documents and web pages usin
 
 
 ## 1. Architecture Diagram
-![Architecture Diagram](./images/Architecture Diagram.png)
+![Architecture Diagram](https://github.com/Srinivas-Natarajan/Abstractive-Summarization-using-BART/blob/main/images/Architecture%20Diagram.png)
