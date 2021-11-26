@@ -23,18 +23,24 @@ In the BERT architecture, the model has access to the entire sequence of tokens 
 </p>
 
 <p align="center">
-  ![BERT Mask](https://github.com/Srinivas-Natarajan/Abstractive-Summarization-using-BART/blob/main/images/BERT%20Mask.png)
+  <img src="https://github.com/Srinivas-Natarajan/Abstractive-Summarization-using-BART/blob/main/images/BERT%20Mask.png" alt="BERT Mask" height="200"/>
 </p>
 
 <p>
 The GPT2 model is more suited for the prediction of the next masked token due to its use of the casual attention mask. This makes it suitable for prediction tasks but less effective at downstream tasks, such as situations where the whole input is required to give an output. In essence, GPT2 only uses words it has seen before.
 </p>
 
-![GPT2 Mask](https://github.com/Srinivas-Natarajan/Abstractive-Summarization-using-BART/blob/main/images/GPT2%20mask.png)
+<p align="center">
+  <img src="https://github.com/Srinivas-Natarajan/Abstractive-Summarization-using-BART/blob/main/images/GPT2%20mask.png" alt="GPT2 Mask" height="200"/>
+</p>
 
 <p>
 BART adopts a fully visible mask similar to BERT for its encoding process and a casual mask similar to the GPT2 model for the decoder process. The encoder and decoder are connected through cross attention, where every decoder layer performs attention over the encoder’s hidden states. This structure helps the overall output be closer to the input given.
 </p>
 
-![BART Encoder Mask](https://github.com/Srinivas-Natarajan/Abstractive-Summarization-using-BART/blob/main/images/BART%20Encoder.png)
+<p align="center">
+  <img src="https://github.com/Srinivas-Natarajan/Abstractive-Summarization-using-BART/blob/main/images/BART%20Encoder.png" alt="BART Encoder Mask" height="200"/>
+</p>
+
+
 
