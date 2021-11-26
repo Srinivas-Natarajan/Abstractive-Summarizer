@@ -43,9 +43,16 @@ BART adopts a fully visible mask similar to BERT for its encoding process and a 
 
 ## 3. Results
 
-- ### A. Rouge-1 Scores
-![Rouge1](https://github.com/Srinivas-Natarajan/Abstractive-Summarization-using-BART/blob/main/images/Rouge_1.png)
--  
+### A. Rouge-1 Scores
+<img src="https://github.com/Srinivas-Natarajan/Abstractive-Summarization-using-BART/blob/main/images/Rouge_1.png" alt="Rouge1" height="200"/>
+
+### B. Rouge-2 Scores
+<img src="https://github.com/Srinivas-Natarajan/Abstractive-Summarization-using-BART/blob/main/images/Rouge_2.png" alt="Rouge1" height="200"/>    
+
+### C. Rouge-L Scores
+<img src="https://github.com/Srinivas-Natarajan/Abstractive-Summarization-using-BART/blob/main/images/Rouge_L.png" alt="Rouge1" height="200"/>  
+                                                                                                                                       
+
 
 
 
