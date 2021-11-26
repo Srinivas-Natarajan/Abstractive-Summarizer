@@ -16,6 +16,8 @@ An abstractive summarization tool that can condense documents and web pages usin
 The system diagram starts with the methods of input with the standard techniques that involve typing out documents or uploading text files or documents from the user’s systems. If the users want to extract information from a webpage, the URL to the webpage is provided in a text field, and the request is sent to the Web Scraping module, which collects this information from the webpage and processes it to remove unnecessary details such as tags, links, and stopwords, etc. The Text summarization model takes this document which has been input and creates a bag of word models to collect only the vital information, which is then displayed to the User. The user is then allowed an option to encrypt the data using the ECIES algorithm, which generates a 256-bit symmetric key for the user with the ability to exchange this key with other users using the Diffie Hellman Key Exchange algorithm. This file can then be saved to the user’s system for future reference or shared with other authorized personnel.
 </p>
 
+<br>
+
 ## 2. Methodology
 
 <p>
@@ -38,9 +40,13 @@ The GPT2 model is more suited for the prediction of the next masked token due to
 BART adopts a fully visible mask similar to BERT for its encoding process and a casual mask similar to the GPT2 model for the decoder process. The encoder and decoder are connected through cross attention, where every decoder layer performs attention over the encoder’s hidden states. This structure helps the overall output be closer to the input given.
 </p>
 
-<p align="center">
-  <img src="https://github.com/Srinivas-Natarajan/Abstractive-Summarization-using-BART/blob/main/images/BART%20Encoder.png" alt="BART Encoder Mask" height="200"/>
-</p>
+
+## 3. Results
+
+- ### A. Rouge-1 Scores
+![Rouge1](https://github.com/Srinivas-Natarajan/Abstractive-Summarization-using-BART/blob/main/images/Rouge_1.png)
+-  
+
 
 
 
